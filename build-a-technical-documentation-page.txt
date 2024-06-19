@@ -1,0 +1,224 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+        <a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a>
+        <a class="nav-link" href="#Advanced_Topics">Advanced Topics</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Welcome to the technical documentation of web development basics.</p>
+            <p>In this documentation, you will learn the fundamentals of HTML, CSS, and JavaScript.</p>
+            <p>HTML is the standard markup language for creating web pages.</p>
+            <p>CSS is used for describing the presentation of a document written in a markup language like HTML.</p>
+            <p>JavaScript is a programming language that is used to create dynamic and interactive effects within web browsers.</p>
+            <ul>
+                <li>Web Development Basics</li>
+                <li>HTML Overview</li>
+                <li>CSS Overview</li>
+                <li>JavaScript Overview</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML stands for Hyper Text Markup Language.</p>
+            <p>HTML is the standard markup language for creating web pages.</p>
+            <p>HTML describes the structure of a web page.</p>
+            <p>HTML consists of a series of elements.</p>
+            <p>HTML elements tell the browser how to display the content.</p>
+            <code>&lt;!DOCTYPE html&gt;</code>
+            <code>&lt;html&gt;</code>
+            <code>&lt;head&gt;</code>
+            <code>&lt;title&gt;Page Title&lt;/title&gt;</code>
+            <code>&lt;/head&gt;</code>
+            <ul>
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;title&gt;</li>
+                <li>&lt;/head&gt;</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="CSS_Basics">
+            <header>CSS Basics</header>
+            <p>CSS stands for Cascading Style Sheets.</p>
+            <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+            <p>CSS saves a lot of work.</p>
+            <p>It can control the layout of multiple web pages all at once.</p>
+            <p>External stylesheets are stored in CSS files.</p>
+            <code>body { background-color: lightblue; }</code>
+            <code>h1 { color: white; }</code>
+            <code>p { color: red; }</code>
+            <code>div { margin: 10px; }</code>
+            <code>span { font-size: 14px; }</code>
+            <ul>
+                <li>Selectors</li>
+                <li>Properties</li>
+                <li>Values</li>
+                <li>Inline Styles</li>
+                <li>External Stylesheets</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="JavaScript_Basics">
+            <header>JavaScript Basics</header>
+            <p>JavaScript is the programming language of the Web.</p>
+            <p>JavaScript can update and change both HTML and CSS.</p>
+            <p>JavaScript can calculate, manipulate and validate data.</p>
+            <p>JavaScript is easy to learn.</p>
+            <p>JavaScript is used by many web developers across the globe.</p>
+            <code>document.getElementById("demo").innerHTML = "Hello JavaScript";</code>
+            <code>let x = 5;</code>
+            <code>const y = 10;</code>
+            <code>function myFunction() { return x * y; }</code>
+            <code>console.log(myFunction());</code>
+            <ul>
+                <li>Variables</li>
+                <li>Functions</li>
+                <li>Events</li>
+                <li>DOM Manipulation</li>
+                <li>AJAX</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Advanced_Topics">
+            <header>Advanced Topics</header>
+            <p>In this section, we will cover some advanced web development topics.</p>
+            <p>Responsive Web Design: Make web pages look good on all devices.</p>
+            <p>CSS Flexbox: A layout mode for arranging elements in a predictable way.</p>
+            <p>CSS Grid: A powerful 2-dimensional layout system for the web.</p>
+            <p>JavaScript ES6: The latest version of JavaScript with new features.</p>
+            <p>Web APIs: Interfaces for building web applications.</p>
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>CSS Flexbox</li>
+                <li>CSS Grid</li>
+                <li>JavaScript ES6</li>
+                <li>Web APIs</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #333;
+    overflow-x: auto;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #navbar header {
+        width: 100%;
+    }
+
+    .nav-link {
+        padding: 5px;
+        flex: 1 1 calc(100% / 3);
+        text-align: center;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
+
+
+** end of undefined **
+
